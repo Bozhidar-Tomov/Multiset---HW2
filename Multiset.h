@@ -24,4 +24,9 @@ private:
     inline size_t getCapacity() const;
     inline size_t getBucketIdxBegin(size_t) const;
     inline size_t getBucketIdxEnd(size_t) const;
+    inline size_t getMostSignificantBitIdx(size_t) const;
+
+    // test
+    inline size_t getBucketIdxFromBits(size_t) const;
+    inline size_t getBitIdxInBucketFromBits(size_t) const;
 };

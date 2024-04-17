@@ -4,11 +4,15 @@
 
 int main()
 {
-    Multiset m(10, 1);
+    Multiset m(10, 2);
 
     try
     {
-        m.add(11);
+        m.add(1);
+        m.add(1);
+        m.add(1);
+        m.add(1);
+        m.add(2);
     }
     catch (const std::exception &e)
     {
